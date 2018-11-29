@@ -7,13 +7,14 @@ from email.mime.text import MIMEText
 import sys
 import time
 
+#邮箱服务信息
 mail_host = 'smtp.qq.com'
 mail_port = '465'
 mail_user = '********@qq.com'
 mail_pass = '*************'
 mail_postfix = 'qq.com'
 
-
+#邮件内容
 def send_mail(to_list,subject,content):
     me = ("%s<***********@qq.com>")%(Header('丢你个扑街','utf-8'),)
     msg = MIMEText(content, 'plain', 'utf-8')
