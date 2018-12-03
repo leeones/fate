@@ -11,7 +11,7 @@ import time
 mail_host = 'smtp.qq.com'
 mail_port = '465'
 mail_user = '********@qq.com'
-mail_pass = '********'
+mail_pass = '*******'
 mail_postfix = 'qq.com'
 
 #邮件内容
